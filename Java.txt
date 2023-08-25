@@ -1,0 +1,183 @@
+1)Consider the following class definition: public class TestClass
+
+Public class TestClass
+{
+public static void main(){ new TestClass().sayHello(); } //1
+public static void sayHello(){ System.out.println("Static Hello World"); } //2
+public void sayHello() { System.out.println("Hello World "); } //3
+}
+
+What will be the result of compiling and running the class ? Select 2 Correct Options
+Ans:
+It will print ‘Hello World’.
+It will print ‘Static Hello World’.
+Compilation error at Line 2
+Compilation error at line 3.
+Runtime Error.
+
+Ans: 3, 4
+
+2)
+class Top {
+public Top(String s) { System.out.print("B"); }
+}
+public class Bottom2 extends Top {
+public Bottom2(String s) { System.out.print("D"); }
+public static void main(String ] args) {
+new Bottom2("C"); System.out.println(" );
+}}
+What is the result?
+BD
+DB
+BDC
+DBC
+Compilation fails
+
+Ans : E
+
+3) java -ea and java -da commands are a part of
+exceptions
+assertions
+unit testing
+packaging
+documentation
+
+Ans: assertions
+
+4) User wants to execute java application, select the minimum installation which must be
+present on machine
+JDK
+JRE
+JVM
+VM
+
+Ans: JRE
+
+5) What will be the output of following code?
+public class TestClass {
+static int somelnt = 10;
+public static void changelt(int a)
+{
+a = 20;
+}
+public static void main(String[] args) {
+changelt(somelnt);
+System.out println(somelnt);
+}
+}
+10
+20
+It will not compile.
+It will throw an exception at runtime.
+
+Ans: 10
+
+6) What will be the output of following code?
+abstract class Vehicle {
+public int speed() { return 0; }
+}
+class Car extends Vehicle{
+public int speed() { return 60; }
+}
+public class RaceCar extends Car{
+public int speed() { return 150; }
+public static void main(Stringl args) {
+RaceCar racer = new RaceCar();
+Car car = racer,
+Vehicle vehicle = car,
+System.out.println(racer.speed() + “,” + car.speed() +”," + vehicle speed()); }}
+150, 60,0
+0,0,0
+150, 150, 150
+Compilation error
+An exception is thrown at runtime
+
+Ans : 150,150,150
+
+7) Which of the following is a valid non access modifier in java?
+public
+private
+protected
+transient
+friendly
+
+Ans: transient
+
+8) Which of these access specifiers can be used for a class so that it's public members can be
+accessed by a different class in the different package?
+public
+protected
+private
+No modifier
+
+Ans: public
+
+9)Daemon thread runs in the
+A]Background
+B]Foreground
+C]Both A&B
+D]Dameon Thread is not Thread
+
+Ans : A
+
+10) Developer wants to check if the object is null suggest appropriate assert method to test
+assertNull(..)
+assertNotNull()
+isNull()
+equalNull()
+
+Ans: assertNull(...)
+
+
+11) // Whal is the output?
+package.com.psl.training;
+class One {
+void m1() {
+System.out.print("One method 1");
+}
+}
+class Two extends One {
+void m 1() {
+System.out.print("Two method1");
+}
+void m1(String s) {
+System out.print("Hello from Two method 1 ");
+}
+}
+public class Main{
+public static void main(String[] args) {
+new Two().m1():
+}
+}
+One.method1
+Two.method1
+Hello from Two.method1
+Compilation error
+Runtime Exception.
+}
+
+Ans: Two.method1
+
+12) Which of the following collection can be used by the developer lo slore name and marks of
+the student?
+Collections
+ArrayList
+Map
+Queue
+
+Ans: Map
+
+13) What is the Output of following code? public class Test{
+public static void main(String] args) {
+String names[]= {"One", "Two"},
+for (String str: names) {
+System.out.println(strtoupperCase();
+}
+}
+}
+A]ONE TWO
+B]One Two
+C]Compile-time error
+D]RuntimeException
+
+Ans : A

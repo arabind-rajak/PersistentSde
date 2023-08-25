@@ -1,0 +1,254 @@
+java:
+
+1. java is a -
+   a)independent
+   b)procedural
+   c)structural
+   d)none
+Ans:a
+
+2. Byte Code generate by-
+Ans:Compiler
+
+3. Object o1 and o2 equals check which function-
+   a)o1.equals(o2)
+   b)o1.equalsTo(o2)
+   c)o1==o2
+   d)o1.compareTo(o2)
+Ans:a
+
+4. which collection gives sorted order-
+   a)Linked List
+   b)Hash set
+   c)Tree set
+   d)Map
+Ans:c
+
+5.less restricted to more restricted modifiers: public->default->protected->private
+
+6. Clss Test extends Thread{
+        public void run (){
+            S.O.P("Hi");
+        }
+        
+   Class Main {
+      public static void......
+        Test t1.run();
+        Test t2.run();
+         t.start();
+}
+   a)exception throw
+   b)compilation error
+   c)run successfully
+   d)none
+Ans:c
+
+7. Execution sequence : static block->instanse block->constructor->method
+
+8. which line os S.O.P will not execute -
+Class main{
+    public.......
+   int x=5;
+    try{
+      S.O.P(x/1); //line1
+    }
+   catch(Exception e){
+     S.O.P(e); //Line2
+    }
+   final(){
+   S.O.P("Hi"); //Line3
+  }
+   S.O.P("Hello"); //Line4
+  }
+ 
+   a)Line1
+   b)Line2
+   c)Line3
+   d)Line4
+Ans:b
+
+9. Developer Wants to check if the object is null-
+   a)assertNull()
+   b)assertNotNull()
+   c)isNull()
+   d)isNotNull()
+Ans:a
+
+
+----------------------------------------------------------------------------------------------------
+--1)
+import java io*;
+class Demo
+{
+	public static void main(String args[]) 
+	{
+		FileInputStrearn fis = null,
+		try {
+			fis = new FileInputStream("d/abc.txt"),
+		} 
+		catch (FileNotFoundException fnfe) {
+			System.out.println("abc.txt file is not present at the given path");
+		}
+	}
+}
+What will be the output of the above code when executed?
+A] executes fine if file is available at given path
+B] Exception is raised if file is not available
+C] Exception is raised if file has no data in it.
+D] A&C
+E] A&B
+Ans:E] A&B
+
+--2)
+User wants to execute java application, select the minimum installation which must be present on machine
+A] JDK
+B] JRE
+C] JVM
+D] VM
+Ans:B] JRE
+
+--3)
+Given
+class Hexy 
+{
+	public static void main(String[] args) 
+	{
+		Integer i = 42;
+		String s = (i<40)?"life" (i>50)?"universe"."everything”;
+		System.out.println(s);
+	}
+}
+What is the result?
+A] null
+B] life
+C] universe
+D] everything
+E] Compilation fails
+Ans:D] everything
+
+--4)
+What is the Output of following code?
+public class Test
+{
+	public static void main(String... args)
+	{
+		String chair,
+		String table = "metal",
+		chair = chair + table,
+		System.out.println(chair),
+	}
+}
+A] metal
+B] Compile-time Error
+C] nullmetal
+D] NullPointerException
+Ans:B] Compile-time Error
+
+--5)
+Which of the given statements are true?
+A] In Java, garbage collection (GC) provides automated memory management
+B] The purpose of GC is to delete objects that can't be reached.
+C] Only the JVM decides when to run the GC, you can only suggest it.
+D] A&C
+E] A,B&C
+Ans:E] A,B&C
+
+--6)
+Which of the following is the byte based input stream to read liles?
+A] BufferedReader
+B] Buffered Writer
+C] FileReader
+D] FileInputStream
+E] FileInputStreamReader
+Ans:D] FileInputStream
+
+--7)
+Daemon thread runs in the
+A] Background
+B] Foreground
+C] Both A&B
+D] Daemon Thread is not Thread
+E] None
+Ans:A] Background
+
+--8)
+Developer wants to check if the object is null suggest appropriate assert method to test
+A] assertNull(..)
+B] assertNotNull()
+C] isNull()
+D] equalNull()
+Ans:A] assertNull(..)
+
+--9)
+Which of the give annotation make it possible to run a test multiple times with different
+parameters?
+A] @ParameterizedTest
+B] @lnputTest
+C] @Test
+D] @RunTest
+Ans:A] @ParameterizedTest
+
+
+--10)
+Given,
+
+	String str = new String("Java8");
+	str.concat("Web");
+	StringBuilder strBuilder = new StringBuilder("JSP");
+	strBuilder.append("EJB");
+	strBuilder.append(str) //line1
+	System.out.println(strBuilder);
+What will be the output when the above code will be executed?
+A] JSPEJBJava8Web
+B] JSPEJBJava8
+C] JSP EJB Java8
+D] Compilation error at line 1
+E] Runtime Exception because of line 1
+Ans:B] JSPEJBJava8
+
+--11)
+To execute Java code atleast __ is needed
+A] JDK
+B] JRE
+C] JVM
+D] VM
+Ans:B] jre
+
+--12)
+Which of the following arranges access specifiers from most restrictive to less restrictive?
+A] private ,default ,protected ,public
+B] private ,protected ,default ,public
+C] default ,private ,protected ,public
+D] default ,private ,public ,protected
+Ans:B] private ,default,protected  ,public
+
+--13)
+__ annotation allows to declare method to run as Test case method
+A] @Test
+B] @RunWith
+C] @SuitClasses
+D] @Run
+Ans:A] @Test
+
+--14)
+Which of the following will directly stop the execution of a Thread?
+A] notify()
+B] notifyall()
+C] wait()
+D] exits synchronized code
+Ans:D] exits synchronized code
+-----------------------------------------------------------------------------------------------------------------
+HTML CSS Java Script:
+
+1. QuerySelector() -> for selecting single class/tag/id
+
+2. Header, Footer, Detail , Section these are -> Semantic tag
+
+3. Arrow Funcion allow multi statement in block -
+   a)true
+   b)false
+Ans:a
+
+4. which operator check value and type equal-> ===
+
+
